@@ -76,6 +76,7 @@ export default function Questions(props) {
       <h4>{props.question}</h4>
 
       <div className="answer-container">{answerElements}</div>
+      <div></div>
     </div>
   );
 }
